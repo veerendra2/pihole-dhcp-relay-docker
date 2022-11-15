@@ -3,6 +3,7 @@ Run Pi-hole in bridge mode with DHCP relay.
 > Created this repo for my blog: [https://veerendra2.github.io/pihole-dhcp-relay/](https://veerendra2.github.io/pihole-dhcp-relay/)
 
 * Pi-hole [docs](https://docs.pi-hole.net/docker/DHCP/)
+* Ansible playbook reference to configure systemd-resolved for Pi-hole [here](https://github.com/veerendra2/raspberrypi-homeserver/blob/main/tasks/pihole.yml)
 ## Configure
 * DHCP
   * Enable and DHCP pool in [.env#L14](./.env#L14)
